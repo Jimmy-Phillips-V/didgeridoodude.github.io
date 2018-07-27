@@ -3,11 +3,7 @@
     /* vertical-align: center; */
 }
 
-body {
-    background: #f1f1f1;
-    color: #9ca0ac;
-    font: georgia, "times new roman", serif;
-}
+
 
 #fixed {
     background: #ffffff;
@@ -28,6 +24,7 @@ body {
     color: #ffffff;
     padding: 21px;
     font-size: 40px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .header-nav_link {
@@ -39,6 +36,13 @@ a {
     text-decoration: none;
     color: #9ca0ac;
     float: right;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+    background: #f1f1f1;
+    color: #9ca0ac;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .bio-box{
@@ -93,4 +97,43 @@ hr {
 
 .contact-items {
     margin: 20px;
+}
+
+.portfolio-box {
+    margin: 100px auto;
+    width: 960px;
+    background: #ffffff;
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+#portfolio-head {
+        color: #4aaaa5;
+        font-size: 40px;
+        margin: 20px;
+}
+
+#company1 {
+    border: 1px solid gray;
+    margin: 75px;
+    position: relative;
+}
+
+#company2 {
+    border: 1px solid gray;
+    margin: 75px;
+    position: relative;
+}
+
+#company3 {
+    border: 1px solid gray;
+    margin: 75px;
+    position: relative;
+}
+
+#company4 {
+    border: 1px solid gray;
+    margin: 75px;
+    position: relative;
 }
