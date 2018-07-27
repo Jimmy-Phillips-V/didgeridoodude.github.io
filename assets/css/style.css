@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
-    text-align: center;
+    /* vertical-align: center; */
+}
+
+body {
+    background: #f1f1f1;
+    color: #9ca0ac;
+    font: georgia, "times new roman", serif;
 }
 
 #fixed {
@@ -11,14 +17,80 @@
     width: 100%;
 }
 
-.wrapper{
-    width: 600px;
-    padding: 20px;
+.banner {
+    width: 960px;
     margin: 0 auto;
 }
 
-#header {
-    color: #ffffff;
+.name{
+    float: left;
     background: #4aaaa5;
+    color: #ffffff;
+    padding: 21px;
+    font-size: 40px;
 }
 
+.header-nav_link {
+    margin: 25px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #9ca0ac;
+    float: right;
+}
+
+.bio-box{
+    margin: 100px auto;
+    width: 960px;
+    background: #ffffff;
+    overflow: hidden;
+    border: gray;
+    padding: 2px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 40px;
+    margin: 20px;
+}
+
+hr {
+    border: none;
+    background-color: gray;
+    height: 3px;
+    margin: 0px 20px 10px 20px;
+}
+
+.bio-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px 20px;
+}
+
+.bio-info {
+    margin: 10px 20px;
+}
+
+.contact-info {
+    margin: 100px auto;
+    width: 960px;
+    background: #ffffff;
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+#contact-head {
+    color: #4aaaa5;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.contact-items {
+    margin: 20px;
+}
