@@ -1,2 +1,1 @@
-# didgeridoodude.github.io
-My Portfolio
+# Responsive-Portfolio
